@@ -1,0 +1,6 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1772741947
+character_body_3d.gd::GDScript::2372684505218056128::1772741772::0::1::::<>CharacterBody3D<><>0<>0<><>::
+character_body_3d.tscn::PackedScene::7375980494786997325::1772741892::0::1::::<><><>0<>0<><>::uid://82l1c27xikiy::::res://character_body_3d.gd
+icon.svg::CompressedTexture2D::1790880795757653::1772740762::1772741407::1::::<><><>0<>0<>1d558fff71561543e2cf7e0d300c3350<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+node_3d.tscn::PackedScene::855609227061733535::1772741896::0::1::::<><><>0<>0<><>::uid://ddc8k6gybq8ur::::res://character_body_3d.tscn

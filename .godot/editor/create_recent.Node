@@ -1,6 +1,8 @@
-Node
+GPUParticles3D
 CollisionShape3D
 MeshInstance3D
+Area3D
+Node
 StaticBody3D
 DirectionalLight3D
 DirectionalLight2D

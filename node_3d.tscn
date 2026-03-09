@@ -1,11 +1,12 @@
 [gd_scene format=3 uid="uid://mgp02mkor0at"]
 
 [ext_resource type="PackedScene" uid="uid://ddc8k6gybq8ur" path="res://character_body_3d.tscn" id="1_a202f"]
+[ext_resource type="PackedScene" uid="uid://dhjx8hpn8g8xe" path="res://coint.tscn" id="2_noarx"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_a202f"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_a0tk4"]
-size = Vector3(4.2015076, 2.7296143, 10.296898)
+size = Vector3(4.2015076, 2.7296143, 10.427035)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_noarx"]
 
@@ -147,11 +148,11 @@ surface_material_override/0 = SubResource("StandardMaterial3D_jka67")
 transform = Transform3D(-0.047931787, 0.04935677, 1.1351532, -0.014452614, -0.32762158, 0.17053455, -0.92738384, 0.0025547538, -0.061327912, -1.0602026, 0.16148806, -29.403913)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D7" unique_id=1065619592]
-transform = Transform3D(4.2718167, -5.9604645e-08, 0, 0, 2.5091257, -9.536743e-07, 0, 3.7252903e-08, 9.786014, -21.767458, 0.094266415, 0.40296936)
+transform = Transform3D(4.294182, -6.0070306e-08, 5.9604645e-08, 0, 2.4712086, -5.699694e-07, -1.4901161e-08, 3.7020072e-08, 8.805705, -21.76746, 0.094266415, 0.40296942)
 mesh = SubResource("BoxMesh_a202f")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D7" unique_id=1645800070]
-transform = Transform3D(1.0000005, -3.0500814e-08, 1.2665987e-07, -3.7252903e-09, 0.9999995, 7.741619e-08, -2.2351742e-08, -3.081368e-08, 1, -21.665909, -0.34486628, -0.45000872)
+transform = Transform3D(1.0000005, -3.0500814e-08, 1.2665987e-07, -3.7252903e-09, 0.9999995, 7.741619e-08, -2.2351742e-08, -3.081368e-08, 1, -21.665916, -0.34486556, -0.38493973)
 shape = SubResource("BoxShape3D_a0tk4")
 
 [node name="StaticBody3D10" type="StaticBody3D" parent="." unique_id=1531715630]
@@ -189,3 +190,6 @@ shape = SubResource("BoxShape3D_noarx")
 transform = Transform3D(12.882458, 0, 0, 0, 1, 0, 0, 0, 1, -0.23780537, 0, 7.9014206)
 mesh = SubResource("BoxMesh_a0tk4")
 surface_material_override/0 = SubResource("StandardMaterial3D_a202f")
+
+[node name="Area3D" parent="." unique_id=368270729 instance=ExtResource("2_noarx")]
+transform = Transform3D(1, 0, 0, 0, 1.3, 0, 0, 0, 1, 23, -6.995353, -10)

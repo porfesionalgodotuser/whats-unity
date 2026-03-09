@@ -1,0 +1,5 @@
+res://node_3d.tscn
+res://area_3d.gd
+res://coint.tscn
+res://GameManage.gd
+res://character_body_3d.tscn

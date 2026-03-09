@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://dhjx8hpn8g8xe"]
+
+[ext_resource type="Script" uid="uid://cdmnois872y32" path="res://area_3d.gd" id="1_3vcy1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3vcy1"]
+size = Vector3(0.44085693, 0.43399048, 0.052246094)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_3vcy1"]
+
+[node name="Area3D" type="Area3D" unique_id=368270729]
+collision_layer = 2
+script = ExtResource("1_3vcy1")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=630079736]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.004273236, 0.2540648, 0.0025000572)
+shape = SubResource("BoxShape3D_3vcy1")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=706549642]
+transform = Transform3D(0.39999992, 0, 0, 0, -4.656613e-10, -0.4111781, 0, -0.021823747, 0, 0, 0.26149178, 0)
+mesh = SubResource("CylinderMesh_3vcy1")
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="." unique_id=1419036467]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.26184452, 0)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

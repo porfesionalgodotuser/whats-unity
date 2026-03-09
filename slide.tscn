@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b0g4hvc4u1qg1"]
+
+[ext_resource type="ArrayMesh" uid="uid://cp6yq88yjv5ja" path="res://slidey.obj" id="1_ahxrm"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" unique_id=1415031764]
+mesh = ExtResource("1_ahxrm")

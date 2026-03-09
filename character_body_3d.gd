@@ -20,31 +20,30 @@ func _ready() -> void:
 	ball_radius = aabb.size.x / 2.0
 
 func _physics_process(delta: float) -> void:
+	# 1. Apply Gravity (Always happens)
 	if not is_on_floor():
 		velocity += get_gravity() * GRAVITY_MULTIPLIER * delta
 
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
-
+	# 2. Get Input Direction
 	var input_dir := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
-
-	# Make input relative to camera facing direction
 	var cam_basis := Basis(Vector3.UP, camera_yaw)
 	var direction := (cam_basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 
-	if is_on_floor():
-		var floor_normal := get_floor_normal()
-		var slope := Vector3(floor_normal.x, 0, floor_normal.z) * GRAVITY_MULTIPLIER * 9.8 * delta
+	# 3. MOVEMENT LOGIC (Moved outside is_on_floor)
+	if direction:
+		velocity.x = move_toward(velocity.x, direction.x * SPEED, ACCELERATION * delta)
+		velocity.z = move_toward(velocity.z, direction.z * SPEED, ACCELERATION * delta)
+	else:
+		# Apply friction/slope logic
+		if is_on_floor():
+			var floor_normal := get_floor_normal()
+			velocity.x += floor_normal.x * 9.8 * delta
+			velocity.z += floor_normal.z * 9.8 * delta
+		
+		velocity.x = move_toward(velocity.x, 0, FRICTION * delta)
+		velocity.z = move_toward(velocity.z, 0, FRICTION * delta)
 
-		if direction:
-			velocity.x = move_toward(velocity.x, direction.x * SPEED, ACCELERATION * delta)
-			velocity.z = move_toward(velocity.z, direction.z * SPEED, ACCELERATION * delta)
-		else:
-			velocity.x += slope.x
-			velocity.z += slope.z
-			velocity.x = move_toward(velocity.x, 0, FRICTION * delta * 0.2)
-			velocity.z = move_toward(velocity.z, 0, FRICTION * delta * 0.2)
-
+	# 4. Execute Movement
 	move_and_slide()
 
 	# Roll the ball based on horizontal velocity

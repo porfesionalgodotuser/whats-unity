@@ -15,6 +15,7 @@ material = SubResource("StandardMaterial3D_3vcy1")
 transform = Transform3D(2.978097, 0, 0, 0, 2.978097, 0, 0, 0, 1, 0, 0, 0)
 collision_layer = 2
 script = ExtResource("1_3vcy1")
+value = null
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=630079736]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.004273236, 0.2540648, 0.0025000572)

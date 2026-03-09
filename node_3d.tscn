@@ -191,5 +191,29 @@ transform = Transform3D(12.882458, 0, 0, 0, 1, 0, 0, 0, 1, -0.23780537, 0, 7.901
 mesh = SubResource("BoxMesh_a0tk4")
 surface_material_override/0 = SubResource("StandardMaterial3D_a202f")
 
-[node name="Area3D" parent="." unique_id=368270729 instance=ExtResource("2_noarx")]
-transform = Transform3D(1.8168695, 0, 0.50078577, 0, 2.099041, 0, -1.0511699, 0, 0.86557126, -5.2868986, 3.1183345, -5.1408415)
+[node name="Area3D2" parent="." unique_id=368270729 instance=ExtResource("2_noarx")]
+transform = Transform3D(-0.49922192, 0, 1.0060087, 0, 4.2394, 0, -3.924273, 0, -0.9176701, 5.284341, 1.8590541, -9.511547)
+
+[node name="Area3D" parent="." unique_id=931390626 instance=ExtResource("2_noarx")]
+transform = Transform3D(1.8168695, 0, 0.50078577, 0, 2.099041, 0, -1.0511699, 0, 0.86557126, -4.990635, 3.1183345, -4.8968453)
+
+[node name="Area3D3" parent="." unique_id=1120108763 instance=ExtResource("2_noarx")]
+transform = Transform3D(3.0613718, 0, 0, 0, 2.7552347, 0, 0, 0, 1, 14, -6.995353, -5)
+
+[node name="Area3D4" parent="." unique_id=22628046 instance=ExtResource("2_noarx")]
+transform = Transform3D(2.978097, 0, 0, 0, 2.978097, 0, 0, 0, 1, 22, -6.995353, -17)
+
+[node name="Area3D5" parent="." unique_id=568401154 instance=ExtResource("2_noarx")]
+transform = Transform3D(2.978097, 0, 0, 0, 2.978097, 0, 0, 0, 1, -18.068604, 0.003546238, -21.847076)
+
+[node name="Area3D6" parent="." unique_id=1904173392 instance=ExtResource("2_noarx")]
+transform = Transform3D(2.978097, 0, 0, 0, 2.978097, 0, 0, 0, 1, -5.749426, 0.0035481453, -16.295685)
+
+[node name="Area3D7" parent="." unique_id=1415245169 instance=ExtResource("2_noarx")]
+transform = Transform3D(2.978097, 0, 0, 0, 2.978097, 0, 0, 0, 1, -4.20562, 0.003549099, -6.166775)
+
+[node name="Area3D8" parent="." unique_id=435704622 instance=ExtResource("2_noarx")]
+transform = Transform3D(2.978097, 0, 0, 0, 2.978097, 0, 0, 0, 1, -21.01342, 0.0035481453, 6.775985)
+
+[node name="Area3D9" parent="." unique_id=2061413121 instance=ExtResource("2_noarx")]
+transform = Transform3D(2.978097, 0, 0, 0, 2.978097, 0, 0, 0, 1, 26.49791, -7.400356, 7.289299)

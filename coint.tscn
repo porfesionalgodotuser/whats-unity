@@ -12,6 +12,7 @@ albedo_color = Color(1, 1, 0.11372549, 1)
 material = SubResource("StandardMaterial3D_3vcy1")
 
 [node name="Area3D" type="Area3D" unique_id=368270729]
+transform = Transform3D(2.978097, 0, 0, 0, 2.978097, 0, 0, 0, 1, 0, 0, 0)
 collision_layer = 2
 script = ExtResource("1_3vcy1")
 

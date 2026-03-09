@@ -5,7 +5,11 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_3vcy1"]
 size = Vector3(0.44085693, 0.43399048, 0.052246094)
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3vcy1"]
+albedo_color = Color(1, 1, 0.11372549, 1)
+
 [sub_resource type="CylinderMesh" id="CylinderMesh_3vcy1"]
+material = SubResource("StandardMaterial3D_3vcy1")
 
 [node name="Area3D" type="Area3D" unique_id=368270729]
 collision_layer = 2
@@ -18,8 +22,5 @@ shape = SubResource("BoxShape3D_3vcy1")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=706549642]
 transform = Transform3D(0.39999992, 0, 0, 0, -4.656613e-10, -0.4111781, 0, -0.021823747, 0, 0, 0.26149178, 0)
 mesh = SubResource("CylinderMesh_3vcy1")
-
-[node name="GPUParticles3D" type="GPUParticles3D" parent="." unique_id=1419036467]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.26184452, 0)
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -192,4 +192,4 @@ mesh = SubResource("BoxMesh_a0tk4")
 surface_material_override/0 = SubResource("StandardMaterial3D_a202f")
 
 [node name="Area3D" parent="." unique_id=368270729 instance=ExtResource("2_noarx")]
-transform = Transform3D(1, 0, 0, 0, 1.3, 0, 0, 0, 1, 23, -6.995353, -10)
+transform = Transform3D(1.8168695, 0, 0.50078577, 0, 2.099041, 0, -1.0511699, 0, 0.86557126, -5.2868986, 3.1183345, -5.1408415)

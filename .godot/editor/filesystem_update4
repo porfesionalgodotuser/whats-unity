@@ -1,8 +1,2 @@
-res://node_3d.tscn
-res://GameManage.gd
-res://canvas_layer.tscn
-res://canvas_layer.gd
-res://label.gd
-res://coint.tscn
-res://area_3d.gd
 res://character_body_3d.tscn
+res://character_body_3d.gd

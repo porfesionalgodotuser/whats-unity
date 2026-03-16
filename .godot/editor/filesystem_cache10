@@ -1,10 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1773175071
+::res://::1773623484
 area_3d.gd::GDScript::5008995202906151467::1773037062::0::1::::<>Area3D<><>0<>0<><>::
 canvas_layer.gd::GDScript::7516798965997740842::1773036882::0::1::::<>Label<><>0<>0<><>::
 canvas_layer.tscn::PackedScene::7943367896897731750::1773037315::0::1::::<><><>0<>0<><>::uid://d0d0vmkjbqmpq::::res://label.gd
-character_body_3d.gd::GDScript::2372684505218056128::1773035980::0::1::::<>CharacterBody3D<><>0<>0<><>::
-character_body_3d.tscn::PackedScene::7375980494786997325::1773037163::0::1::::<><><>0<>0<><>::uid://82l1c27xikiy::::res://character_body_3d.gd<>uid://btwfaq0q6b0cb::::res://Luxon.png<>uid://dlf3dxxgh2m2y::::res://canvas_layer.tscn
+character_body_3d.gd::GDScript::2372684505218056128::1773176913::0::1::::<>CharacterBody3D<><>0<>0<><>::
+character_body_3d.tscn::PackedScene::7375980494786997325::1773180676::0::1::::<><><>0<>0<><>::uid://82l1c27xikiy::::res://character_body_3d.gd<>uid://btwfaq0q6b0cb::::res://Luxon.png<>uid://dlf3dxxgh2m2y::::res://canvas_layer.tscn
 coint.tscn::PackedScene::7670619169835109686::1773037020::0::1::::<><><>0<>0<><>::uid://cdmnois872y32::::res://area_3d.gd
 GameManage.gd::GDScript::3588122917749145146::1773036867::0::1::::<>Node<><>0<>0<><>::
 icon.svg::CompressedTexture2D::1790880795757653::1772740762::1772741407::1::::<><><>0<>0<>1d558fff71561543e2cf7e0d300c3350<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::

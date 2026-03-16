@@ -1,2 +1,5 @@
-res://character_body_3d.tscn
-res://character_body_3d.gd
+res://node_3d.tscn
+res://h.tscn
+res://area_3d.gd
+res://GameManage.gd
+res://label.gd

@@ -1,9 +1,9 @@
+MeshInstance3D
+StaticBody3D
 Label
 CanvasLayer
-StaticBody3D
 CollisionShape3D
 CollisionPolygon3D
-MeshInstance3D
 Area3D
 GPUParticles3D
 Node

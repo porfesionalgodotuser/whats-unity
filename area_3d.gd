@@ -2,6 +2,9 @@ extends Area3D
 
 @export var value: int = 1
 
+func _ready() -> void:
+	GameManager.register_coin()
+
 func _on_body_entered(body: Node3D) -> void:
 	if body.is_in_group("Player"):
 		print("Player detected!") # Check the Output console for this!

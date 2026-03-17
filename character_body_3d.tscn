@@ -30,6 +30,6 @@ transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
 shape = SubResource("SphereShape3D_iwpo4")
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=331282181]
-transform = Transform3D(1, 0, 0, 0, 0.6728963, 0.7397368, 0, -0.7397368, 0.6728963, 0, 2.4287653, 2.3354185)
+transform = Transform3D(1, 0, 0, 0, 0.6728963, 0.7397368, 0, -0.7397368, 0.6728963, 0, 0.026762009, 0.15045309)
 
 [node name="CanvasLayer" parent="." unique_id=482179453 instance=ExtResource("3_vd578")]

@@ -1,6 +1,1 @@
-res://canvas_layer.tscn
-res://main_menu.gd
-res://control.tscn
-res://label.gd
-res://node_3d.tscn
-res://character_body_3d.gd
+res://character_body_3d.tscn

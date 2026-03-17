@@ -13,11 +13,15 @@ const BALL_SCALE = 0.5
 @onready var ball_mesh := $MeshInstance3D
 @onready var camera := $Camera3D
 
+const DEATH_Y := -20.0
+
 var ball_radius: float
 var camera_yaw := 0.0
 var ball_rotation := Quaternion.IDENTITY
+var spawn_position: Vector3
 
 func _ready() -> void:
+	spawn_position = global_position
 	ball_mesh.scale = Vector3(BALL_SCALE, BALL_SCALE, BALL_SCALE)
 	var aabb: AABB = ball_mesh.get_aabb()
 	ball_radius = (aabb.size.x * BALL_SCALE) / 2.0
@@ -63,6 +67,13 @@ func _physics_process(delta: float) -> void:
 		var angle_diff := wrapf(target_yaw - camera_yaw, -PI, PI)
 		camera_yaw += angle_diff * CAMERA_SMOOTHING * delta
 
-	# 6. Update camera
+	# 6. Death check
+	if global_position.y < DEATH_Y:
+		global_position = spawn_position
+		velocity = Vector3.ZERO
+		camera_yaw = 0.0
+		ball_rotation = Quaternion.IDENTITY
+
+	# 7. Update camera
 	camera.position = Vector3(sin(camera_yaw) * CAMERA_DISTANCE, CAMERA_HEIGHT, cos(camera_yaw) * CAMERA_DISTANCE)
 	camera.look_at(global_position, Vector3.UP)

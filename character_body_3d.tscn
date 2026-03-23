@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://ddc8k6gybq8ur"]
 
 [ext_resource type="Script" uid="uid://82l1c27xikiy" path="res://character_body_3d.gd" id="1_iwpo4"]
-[ext_resource type="Texture2D" uid="uid://btwfaq0q6b0cb" path="res://Luxon.png" id="2_fb3t6"]
+[ext_resource type="Texture2D" uid="uid://bmm4h54w4e05y" path="res://Lux2.png" id="2_vd578"]
 [ext_resource type="PackedScene" uid="uid://dlf3dxxgh2m2y" path="res://canvas_layer.tscn" id="3_vd578"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iwpo4"]
 albedo_color = Color(0.78701186, 0.7267755, 0.9317827, 1)
-albedo_texture = ExtResource("2_fb3t6")
+albedo_texture = ExtResource("2_vd578")
 
 [sub_resource type="SphereMesh" id="SphereMesh_bu0v1"]
 lightmap_size_hint = Vector2i(17, 9)

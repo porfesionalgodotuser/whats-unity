@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1773950567
+::res://::1774228265
 area_3d.gd::GDScript::5008995202906151467::1773625575::0::1::::<>Area3D<><>0<>0<><>::
 canvas_layer.gd::GDScript::7516798965997740842::1773036882::0::1::::<>Label<><>0<>0<><>::
 canvas_layer.tscn::PackedScene::7943367896897731750::1773781555::0::1::::<><><>0<>0<><>::uid://d0d0vmkjbqmpq::::res://label.gd
@@ -7,11 +7,12 @@ character_body_3d.gd::GDScript::2372684505218056128::1773781663::0::1::::<>Chara
 character_body_3d.tscn::PackedScene::7375980494786997325::1773783251::0::1::::<><><>0<>0<><>::uid://82l1c27xikiy::::res://character_body_3d.gd<>uid://btwfaq0q6b0cb::::res://Luxon.png<>uid://dlf3dxxgh2m2y::::res://canvas_layer.tscn
 coint.tscn::PackedScene::7670619169835109686::1773037020::0::1::::<><><>0<>0<><>::uid://cdmnois872y32::::res://area_3d.gd
 control.tscn::PackedScene::3567706063778752234::1773950053::0::1::::<><><>0<>0<><>::uid://ds8khgt4i8qlg::::res://main_menu.gd
-export_presets.cfg::TextFile::-1::1773950263::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1773951727::0::1::::<><><>0<>0<><>::
 GameManage.gd::GDScript::3588122917749145146::1773626226::0::1::::<>Node<><>0<>0<><>::
 h.tscn::PackedScene::6255109096515326108::1773624669::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::1790880795757653::1772740762::1772741407::1::::<><><>0<>0<>1d558fff71561543e2cf7e0d300c3350<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 label.gd::GDScript::8921732347922600814::1773780990::0::1::::<>Label<><>0<>0<><>::
+Lux2.png::CompressedTexture2D::3255234255284121320::1774228250::1774228449::1::::<><><>0<>0<>432b5c9d207b6b3e63c044f8bc297554<>res://.godot/imported/Lux2.png-009aa37548cdd92ef921c9f800931ab7.s3tc.ctex::
 Luxon.png::CompressedTexture2D::3765729488131037921::1773022031::1773022087::1::::<><><>0<>0<>02aa464d1ca536f47573940476da68d6<>res://.godot/imported/Luxon.png-967646ce681480daf72c378d39e7573b.s3tc.ctex::
 main_menu.gd::GDScript::8491405718753876260::1773950018::0::1::::<>Control<><>0<>0<><>::
 node_3d.tscn::PackedScene::855609227061733535::1773781746::0::1::::<><><>0<>0<><>::uid://ddc8k6gybq8ur::::res://character_body_3d.tscn<>uid://dhjx8hpn8g8xe::::res://coint.tscn<>uid://cveay6jl0e7y3::::res://h.tscn<>uid://bi46lxd8iggqo::::res://static_body_3d.tscn
@@ -19,3 +20,4 @@ README.md::TextFile::-1::1773018625::0::1::::<><><>0<>0<><>::
 slide.tscn::PackedScene::4155302441941187542::1773036462::0::1::::<><><>0<>0<><>::uid://cp6yq88yjv5ja::::res://slidey.obj
 slidey.obj::Mesh::5891157298213852450::1773035002::1773035009::1::::<><><>0<>0<>69cb20baab903221d0edac9e23e53ef4<>res://.godot/imported/slidey.obj-8704da9c310a1ea9fb8c2f90bab07f75.mesh<*>res://.godot/imported/slidey.obj-8704da9c310a1ea9fb8c2f90bab07f75.mesh::
 static_body_3d.tscn::PackedScene::3009701472355577430::1773624485::0::1::::<><><>0<>0<><>::
+::res://export/::1773951732

@@ -7,6 +7,8 @@
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iwpo4"]
 albedo_color = Color(0.78701186, 0.7267755, 0.9317827, 1)
 albedo_texture = ExtResource("2_vd578")
+metallic_specular = 1.0
+roughness = 0.0
 
 [sub_resource type="SphereMesh" id="SphereMesh_bu0v1"]
 lightmap_size_hint = Vector2i(17, 9)
